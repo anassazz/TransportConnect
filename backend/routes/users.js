@@ -9,3 +9,5 @@ router.put('/profile', protect, updateProfile);
 router.get('/stats', protect, getUserStats);
 
 export default router;
+
+
